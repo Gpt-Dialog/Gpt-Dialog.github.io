@@ -12,6 +12,35 @@
 	padding-top: 10px;
 }
 
+h1 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 22px;
+}
+
+li {
+  font-size: 20px;
+}
+
+.font-size18 {
+  font-size: 18px;
+}
+
+.padding{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.margin_top {
+  margin-top: 10px;
+}
+
+.li_style_no_marker {
+  list-style-type: none;
+}
+
 @media screen and (max-width: 640px){
 	.padding-left {
   padding-left: 10px;
