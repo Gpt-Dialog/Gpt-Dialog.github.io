@@ -20,7 +20,28 @@ p {
   font-size: 22px;
 }
 
-li {
+li {.container {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.font{
+	font-family: 'Roboto', Arial, sans-serif;
+}
+
+.padding{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+@media screen and (max-width: 640px){
+	.padding-left {
+  padding-left: 10px;
+}}
+
+.padding_bottom {
+	padding-bottom: 10px;
+}
   font-size: 20px;
 }
 
@@ -45,3 +66,7 @@ li {
 	.padding-left {
   padding-left: 10px;
 }}
+
+.padding_bottom {
+	padding-bottom: 10px;
+}
